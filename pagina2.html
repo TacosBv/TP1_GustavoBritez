@@ -1,51 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Página 2 - Imágenes</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-            background-color: rgb(190, 203, 209); /* Color de fondo gris claro para la página */
-        }
-        h1 {
-            text-align: center;
-            color: rgb(0, 0, 0); /* Color negro para el título */
-        }
-        .product-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 20px; 
-        }
-        img {
-            display: block;
-            max-width: 50%; 
-            height: auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            margin-bottom: 10px; 
-        }
-        p {
-            text-align: center;
-            line-height: 1.6;
-            max-width: 80%; 
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Página 2 - Imágenes</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 20px;
+      background-color: rgb(190, 203, 209);
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(0, 0, 0);
+    }
+
+    .product-container {
+      display: flex;
+      flex-direction: row;
+      /* Alinea horizontalmente */
+      align-items: center;
+      /* Centra verticalmente */
+      border: 3px solid #274554;
+      /* Borde del cuadro */
+      padding: 20px;
+      /* Espaciado interno */
+      margin-bottom: 30px;
+      /* Margen inferior */
+      gap: 20px;
+      /* Espacio entre imagen y descripción */
+    }
+
+    img {
+      display: block;
+      max-width: 200px;
+      /* Ajusta el ancho máximo de la imagen */
+      height: auto;
+    }
+
+    p {
+      line-height: 1.6;
+      max-width: 50%;
+      /* Ajusta el ancho máximo del texto */
+    }
+  </style>
 </head>
+
 <body>
-    <h1>Imágenes de productos</h1>
+  <h1>Imágenes de productos</h1>
 
-    <div class="product-container">
-        <img src="https://pulsogamer.com.py/13483-medium_default/notebook-gamer-asus-rog-zephyrus-14-r78gb512ssdgtx1650.jpg" alt="Laptop Gamer ASUS ROG Zephyrus G14">
-        <p>Laptop Gamer ASUS ROG Zephyrus G14 con procesador AMD Ryzen 9, tarjeta gráfica NVIDIA GeForce RTX 3060, pantalla de 14 pulgadas y un diseño ultraportátil.</p>
-    </div>
+  <div class="product-container">
+    <img src="https://pulsogamer.com.py/13483-medium_default/notebook-gamer-asus-rog-zephyrus-14-r78gb512ssdgtx1650.jpg"
+      alt="Laptop Gamer ASUS ROG Zephyrus G14">
+    <p>Laptop Gamer ASUS ROG Zephyrus G14 con procesador AMD Ryzen 9, tarjeta gráfica NVIDIA GeForce RTX 3060, pantalla
+      de 14 pulgadas y un diseño ultraportátil.</p>
+  </div>
 
-    <div class="product-container">
-        <img src="https://i.rtings.com/assets/products/wV6yR6kQ/lg-27gn800-b/back-small.jpg?format=auto" alt="Monitor LG UltraGear 27GN800-B">
-        <p>Monitor LG UltraGear 27GN800-B de 27 pulgadas con resolución QHD (2560 x 1440), tecnología IPS, frecuencia de actualización de 144Hz y tiempo de respuesta de 1ms, ideal para gaming.</p>
-    </div>
+  <div class="product-container">
+    <img src="https://i.rtings.com/assets/products/wV6yR6kQ/lg-27gn800-b/back-small.jpg?format=auto"
+      alt="Monitor LG UltraGear 27GN800-B">
+    <p>Monitor LG UltraGear 27GN800-B de 27 pulgadas con resolución QHD (2560 x 1440), tecnología IPS, frecuencia de
+      actualización de 144Hz y tiempo de respuesta de 1ms, ideal para gaming.</p>
+  </div>
 
-    <p><a href="index.html">Volver a la página principal</a></p>
+  <div class="product-container">
+    <img src="https://nissei.com/media/catalog/product/cache/24e3af3791642c18c52611620aeb2e21/t/e/teclado_razer_2_2_.jpg"
+      alt="Teclado Mecánico Razer Huntsman Elite">
+    <p>Teclado Mecánico Razer Huntsman Elite con switches ópticos Razer, iluminación Razer Chroma RGB y un reposa muñecas
+      ergonómico.</p>
+  </div>
+
+  <div class="product-container">
+    <img src="https://nissei.com/media/catalog/product/cache/24e3af3791642c18c52611620aeb2e21/m/o/mouse_negross_2.jpg"
+      alt="Mouse Inalámbrico Logitech G Pro X Superlight">
+    <p>Mouse Inalámbrico Logitech G Pro X Superlight ultraligero con sensor HERO 25K, diseño ambidiestro y una duración de
+      batería de hasta 70 horas.</p>
+  </div>
+
+  <div class="product-container">
+    <img src="https://tiendamovil.com.py/shop/27062-thickbox_default/auricular-gamer-hyperx-cloud-alpha-s-negroazul.jpg"
+      alt="Audífonos Gamer HyperX Cloud Alpha">
+    <p>Audífonos Gamer HyperX Cloud Alpha con cámara dual para un sonido más nítido y preciso, diadema de aluminio
+      duradera y micrófono desmontable con cancelación de ruido.</p>
+  </div>
+
+  <div class="product-container">
+    <img src="https://nissei.com/media/catalog/product/cache/24e3af3791642c18c52611620aeb2e21/b/r/br-60514-2.jpg"
+      alt="Micrófono USB Blue Yeti Nano">
+    <p>Micrófono USB Blue Yeti Nano compacto con calidad de audio profesional, patrones polares cardioide y omnidireccional,
+      y control de ganancia directo.</p>
+  </div>
+
+  <p><a href="index.html">Volver a la página principal</a></p>
 </body>
+
 </html>
